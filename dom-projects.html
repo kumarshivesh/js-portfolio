@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Basic Projects</title>
+  <link rel="stylesheet" href="./styles/general.css" />
+  <link rel="stylesheet" href="./styles/shared/header.css" />
+  <link rel="stylesheet" href="./styles/projects.css">
+</head>
+<body>
+  <div class="header">
+    <header class="header-content">
+      <a href="#logo" class="logo">
+        <!-- <img src="./images/logoK.png" alt="logoK" class="logo-icon" /> -->
+        <!-- <span class="logo-text">umar Shivesh</span> -->
+        <span class="logo-text">&lt;KS /&gt;</span>
+      </a>
+
+      <ul>
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#blogs" class="nav-link">Blogs</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <!-- <li><i class="nav-link fa-solid fa-moon"></i></li> -->
+      </ul>
+
+      <div class="hamburger">
+        <i class="fa-solid fa-bars"></i>
+        <!-- <img src="./images/bars-solid.svg" class="fa-solid fa-bars" alt="bars"> -->
+      </div>
+    </header>
+  </div>
+
+  <div class="projects">
+    <h1 class="heading">DOM Manipulation Projects</h1>
+
+    <!-- search bar for the projects -->
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="search for projects..." />
+      <button onclick="searchGames()"> Search</button>
+    </div>
+
+    <!-- cards for the javascript games -->
+    <ul class="cards"></ul>
+  </div>
+  <script src="dom-projects.js"></script>
+  <script src="https://kit.fontawesome.com/1f959912e2.js" crossorigin="anonymous"></script>
+</body>
+</html>

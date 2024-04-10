@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Portfolio</title>
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/shared/header.css" />
+  </head>
+  <body>
+    <div class="header">
+      <header class="header-content">
+        <a href="#logo" class="logo">
+          <!-- <img src="./images/logoK.png" alt="logoK" class="logo-icon" /> -->
+          <!-- <span class="logo-text">umar Shivesh</span> -->
+          <span class="logo-text">&lt;KS /&gt;</span>
+        </a>
+
+        <ul>
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#blogs" class="nav-link">Blogs</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <!-- <li><i class="nav-link fa-solid fa-moon"></i></li> -->
+        </ul>
+
+        <div class="hamburger">
+          <i class="fa-solid fa-bars"></i>
+          <!-- <img src="./images/bars-solid.svg" class="fa-solid fa-bars" alt="bars"> -->
+        </div>
+      </header>
+    </div>
+
+    <div id="home" class="content">
+      <section class="main-section">
+        <div class="content-left">
+          <p class="section-label">Hi,</p>
+          <h1 class="section-title">I'm Kumar Shivesh</h1>
+          <p class="section-description">
+            As a proficient web developer specializing in responsive design, I
+            possess a strong command of HTML, CSS, and JavaScript. My skills
+            enable me to create visually appealing layouts while maintaining
+            optimal functionality, enhancing accessibility and user engagement.
+          </p>
+          <div class="button-group">
+            <a
+              href="https://drive.google.com/file/d/1YRJW3N6DOthNjqnKfjMbERskQqLiHrm3/view?usp=drive_link"
+              target="_blank"
+              class="resume-button"
+              >Resume</a
+            >
+            <!-- <a href="#contact" class="hire-button">Hire Me</a> -->
+          </div>
+        </div>
+
+        <div class="content-right">
+          <div class="image-container">
+            <img
+              src="./images/profile-photo-2.jpg"
+              alt="sectionImage"
+              class="section-image"
+            />
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="projects" class="feature-container">
+      <div class="feature-content">
+        <div class="main-info">
+          <h2 class="main-title">Projects</h2>
+          <p class="main-description">
+            In the Projects section, I showcase a diverse range of web applications developed using HTML, CSS, and Vanilla JavaScript.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <!-- card 1 -->
+          <div class="feature-card">
+            <!-- <div class="icon-container">
+              <img class="feature-svg" src="./images/PersonalizedLearn.svg" />
+            </div> -->
+            <div class="feature-info">
+              <div class="feature-title">DOM Manipulation Projects</div>
+              <div class="feature-description">
+                Explore projects focused on manipulating the DOM to create dynamic and interactive user interfaces. These projects highlight skills in event handling, element selection, and DOM manipulation techniques.
+              </div>
+            </div>
+              <!-- <a href="dom-projects.html" target="_blank" class="resume-button">Open</a> -->
+              <a href="dom-projects.html" class="resume-button">Open</a>
+          </div>
+          <!-- card 2 -->
+          <div class="feature-card">
+            <!-- <div class="icon-container">
+              <img class="feature-svg" src="./images/IndustryPatner.svg" />
+            </div> -->
+            <div class="feature-info">
+              <div class="feature-title">API Based Projects</div>
+              <div class="feature-description">
+                Discover projects integrated with external APIs to fetch and display real-time data from third-party sources. These projects demonstrate the ability to consume and interact with APIs.
+              </div>
+            </div>
+            <a href="api-projects.html" class="resume-button">Open</a>
+          </div>
+          <!-- card 3 -->
+          <div class="feature-card">
+            <!-- <div class="icon-container">
+              <img class="feature-svg" src="./images/Affordability.svg" />
+            </div> -->
+            <div class="feature-info">
+              <div class="feature-title">Local Storage Driven Projects</div>
+              <div class="feature-description">
+                Dive into projects leveraging browser local storage to store and manage data locally within the user's browser. These applications showcase the ability to persist data across sessions.
+              </div>
+            </div>
+            <a href="storage-projects.html" class="resume-button">Open</a>
+          </div>
+          <!-- card 4 -->
+          <div class="feature-card">
+            <!-- <div class="icon-container">
+              <img class="feature-svg" src="./images/InnovativeTech.svg" />
+            </div> -->
+            <div class="feature-info">
+              <div class="feature-title">Chrome Extension</div>
+              <div class="feature-description">
+                Experience projects developed as Chrome extensions, these extensions showcase custom functionality tailored to specific user needs, seamlessly integrated into the Chrome browser environment.
+              </div>
+            </div>
+            <a href="chrome-extension.html" class="resume-button">Open</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="blogs" class="blogs-container">
+      <div class="blogs-content">
+        <div class="main-info">
+          <h2 class="main-title">Blogs</h2>
+          <p class="main-description">
+            In the Blog section, I curate a collection of insightful articles covering fundamental JavaScript topics ranging from beginner to advanced levels. 
+          </p>
+        </div>
+
+        <div class="blogs-grid">
+          <!-- card 1 -->
+          <div class="blogs-card">
+            <img class="blogs-img" src="./images/blog-1-cover-2.jpg" alt="blog1">
+            <div class="blogs-info">
+              <div class="blogs-title">Functions: First-Class Citizens in JavaScript</div>
+              <div class="blogs-description">
+                Functions are treated as 'First-class citizens' in JavaScript. What does that mean? They can be assigned to variables, passed as arguments to other functions, returned from functions, and stored in data structures like arrays and objects.
+              </div>
+            </div>
+            <a href="https://kumarshivesh1.hashnode.dev/functions-first-class-citizens-in-javascript" target="_blank" class="resume-button">Read</a>
+          </div>
+          <!-- card 2 -->
+          <div class="blogs-card">
+            <img class="blogs-img" src="./images/blog-2-cover-rh-wol.jpg" alt="blog2">
+            <div class="blogs-info">
+              <div class="blogs-title">How the `reduce()` method is different from the `map()`, `filter()`, and `find()` method?</div>
+              <div class="blogs-description">
+                In this article, I will explain reduce() method. If we compare the arguments of callback function of reduce() method with other frequently used array methods like map(), filter(), find() method...
+              </div>
+            </div>
+              <a href="https://kumarshivesh1.hashnode.dev/how-the-reduce-method-is-different-from-the-map-filter-and-find-method" target="_blank" class="resume-button">Read</a>
+          </div>
+          <!-- card 3 -->
+          <!-- <div class="blogs-card">
+            <img class="blogs-img" src="./images/blog-pic.png" alt="blog1">
+            <div class="blogs-info">
+              <div class="blogs-title">DOM Manipulation Projects</div>
+              <div class="blogs-description">
+                Explore projects focused on manipulating the DOM to create dynamic and interactive user interfaces. These projects highlight skills in event handling, element selection, and DOM manipulation techniques.
+              </div>
+            </div>
+            <a href="https://kumarshivesh1.hashnode.dev/" target="_blank" class="resume-button">Read</a>
+          </div> -->
+          <!-- card 4 -->
+          <!-- <div class="blogs-card">
+            <img class="blogs-img" src="./images/blog-pic.png" alt="blog1">
+            <div class="blogs-info">
+              <div class="blogs-title">DOM Manipulation Projects</div>
+              <div class="blogs-description">
+                Explore projects focused on manipulating the DOM to create dynamic and interactive user interfaces. These projects highlight skills in event handling, element selection, and DOM manipulation techniques.
+              </div>
+            </div>
+            <a href="https://kumarshivesh1.hashnode.dev/" target="_blank" class="resume-button">Read</a>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="footer-container">
+      <div class="footer-content">
+       <div class="left-container">
+        <!-- <a href="#home">
+          <img src="./images/logoK.png" alt="logoK" class="logo-icon" />
+        </a> -->
+        <h2 class="main-title">Contact</h2>
+        <div class="mail">
+          <i class="fa-solid fa-envelope"></i>
+          <p class="mail-text">kumarshiveshch020@gmail.com</p>
+        </div>
+        <div class="phone">
+          <i class="fa-solid fa-phone"></i>
+          <p class="phone-text">(+91) 9035114358</p>
+        </div>
+       </div>
+
+        <div class="socials-container">
+          <p class="socials-para">Socials</p>
+          <div class="foooter-grid">
+            <a href="https://www.linkedin.com/in/kumarshivesh1/" target="_blank" class="socials-a">
+              <!-- <img src="./images/linkedin.svg"/> -->
+              <i class="fa-brands fa-linkedin"></i>
+              <p>LinkedIn</p>
+            </a>
+            <a href="https://github.com/kumarshivesh" target="_blank" class="socials-a">
+              <!-- <img src="./images/github.svg"/> -->
+              <i class="fa-brands fa-square-github"></i>
+              <p>GitHub</p>
+            </a>
+            <a href="https://twitter.com/kumarshivesh1" target="_blank" class="socials-a">
+              <!-- <img src="./images/x-twitter.svg"/> -->
+              <i class="fa-brands fa-square-x-twitter"></i>
+              <p>Twitter</p>
+            </a>
+
+            <a href="https://peerlist.io/kumarshivesh" target="_blank" class="socials-a">
+              <img src="./images/peerlist.svg"/>
+              <p>Peerlist</p>
+            </a>
+            <a href="https://kumarshivesh1.hashnode.dev/" target="_blank" class="socials-a">
+              <!-- <img src="./images/hashnode.svg"/> -->
+              <i class="fa-brands fa-hashnode"></i>
+              <p>Hashnode</p>
+            </a>
+            <a href="https://dev.to/kumarshivesh" target="_blank" class="socials-a">
+              <!-- <img src="./images/dev.svg"/> -->
+              <i class="fa-brands fa-dev"></i>
+              <p>Dev</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <p class="copyright-text">Copyrights by Kumar Shivesh. All rights reserved.</p>
+    </section>
+    <!-- type="module" attribute basically lets this file get variables out of other files -->
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/1f959912e2.js" crossorigin="anonymous"></script>
+  </body>
+</html>
