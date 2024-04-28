@@ -22,6 +22,14 @@ const projects = [
     image: 'https://raw.githubusercontent.com/kumarshivesh/js-basic-projects/master/stopwatch/stopwatch.png',
   },
   {
+    title: 'Table Practitioner',
+    discription:
+      'A web app that let kids pratice multiplication table.',
+    liveLink: 'https://kumarshivesh.github.io/js-basic-projects/table-practitioner/index.html',
+    codeLink: 'https://github.com/kumarshivesh/js-basic-projects/tree/master/table-practitioner',
+    image: 'https://raw.githubusercontent.com/kumarshivesh/js-basic-projects/master/table-practitioner/table-practitioner.jpg',
+  },
+  {
     title: 'Calculator',
     discription: 'A standard Calculator which can perform five basic mathematical operations namely addition, subtraction, multiplication, division, and modulo.',
     liveLink: 'https://kumarshivesh.github.io/js-basic-projects/calculator/index.html',
