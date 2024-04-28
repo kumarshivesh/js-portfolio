@@ -30,6 +30,14 @@ const projects = [
     image: 'https://raw.githubusercontent.com/kumarshivesh/js-basic-projects/master/table-practitioner/table-practitioner.jpg',
   },
   {
+    title: 'Birthday Message Generator',
+    discription:
+      'A web app that display birthday message.',
+    liveLink: 'https://kumarshivesh.github.io/js-basic-projects/wish-hbd/index.html',
+    codeLink: 'https://github.com/kumarshivesh/js-basic-projects/tree/master/wish-hbd',
+    image: 'https://raw.githubusercontent.com/kumarshivesh/js-basic-projects/master/wish-hbd/wish-hbd.png',
+  },
+  {
     title: 'Calculator',
     discription: 'A standard Calculator which can perform five basic mathematical operations namely addition, subtraction, multiplication, division, and modulo.',
     liveLink: 'https://kumarshivesh.github.io/js-basic-projects/calculator/index.html',
