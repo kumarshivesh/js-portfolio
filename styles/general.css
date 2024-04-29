@@ -5,8 +5,8 @@
   --primary-color: #b5c3b2;
   --accent-color: #3f83f8;
   --text-color: #333333;
-  --link-color: #2563eb;
   --background-color: #ffffff;
+  --link-color: #2563eb;
   --light-gray: #f0f0f0;
   --gray: #808080;
   --dark-gray: #555;
@@ -450,6 +450,10 @@ body {
     height: 90%;
     width: 90%;
   }
+}
+
+.footer-container {
+  padding: 0.7rem;
 }
 
 .footer-content{
