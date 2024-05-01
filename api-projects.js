@@ -1,5 +1,12 @@
 const projects = [
   {
+    title: 'JOb Search Portal',
+    discription: 'A web app which helps job seekers to find jobs in Japan.',
+    liveLink: 'https://kumarshivesh.github.io/job-search-portal/',
+    codeLink: 'https://github.com/kumarshivesh/job-search-portal',
+    image: 'https://raw.githubusercontent.com/kumarshivesh/job-search-portal/master/images/find-jobs.jpg',
+  },
+  {
     title: 'Currency Converter',
     discription: 'A simple Currency Converter  made by HTML, CSS, JavaScript.',
     liveLink: 'https://kumarshivesh.github.io/js-api-projects/currency-converter-2/index.html',

@@ -425,7 +425,13 @@ body {
 .blogs-img{
   height: 100%;
   width: 100%;
+  /* transition: transform 0.2s ease-in-out;  */
 }
+
+/* .blogs-img:hover {
+  transform: scale(5);
+} */
+
 .blogs-info{
   display: flex;
   flex-direction: column;
