@@ -428,9 +428,9 @@ body {
   /* transition: transform 0.2s ease-in-out;  */
 }
 
-/* .blogs-img:hover {
-  transform: scale(5);
-} */
+.blogs-img:hover {
+  transform: perspective(800px) translateZ(100px);
+} 
 
 .blogs-info{
   display: flex;
