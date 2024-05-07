@@ -30,6 +30,14 @@ const projects = [
     image: 'https://raw.githubusercontent.com/kumarshivesh/js-basic-projects/master/table-practitioner/table-practitioner.jpg',
   },
   {
+    title: 'Two Circles Intersection Calculator',
+    discription:
+      'A web app that tell whether two circles are intersecting or not.',
+    liveLink: 'https://kumarshivesh.github.io/js-basic-projects/circles-intersection-checker/index.html',
+    codeLink: 'https://github.com/kumarshivesh/js-basic-projects/tree/master/circles-intersection-checker',
+    image: 'https://raw.githubusercontent.com/kumarshivesh/js-basic-projects/master/circles-intersection-checker/circles-intersection-checker.jpg',
+  },
+  {
     title: 'Birthday Message Generator',
     discription:
       'A web app that display birthday message.',
